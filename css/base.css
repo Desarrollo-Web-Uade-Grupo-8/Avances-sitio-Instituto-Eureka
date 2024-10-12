@@ -1,0 +1,44 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+    width: 80px;
+}
+
+.navbar {
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+.navbar-nav {
+    gap: 200px; /* Aumenta o disminuye según prefieras */
+}
+
+main {
+    flex-grow: 1;
+    position: relative;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+footer img {
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .navbar-nav {
+        gap: 100px; 
+    }
+}
