@@ -17,7 +17,7 @@
 <body class="d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
-            <div class="container">
+            <div class="container-fluid"> 
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo.png" alt="Logo" width="40">
                 </a>
@@ -34,10 +34,9 @@
                 </div>
             </div>
         </nav>
-        
     </header>
     <main class="flex-grow-1 d-flex justify-content-center align-items-center">
-        <section id="avances" class="py-5 text-center">
+        <section id="avances" class="py-5 text-center container-fluid">
             <h1>Propuesta: Sitio web para "Instituto Eureka"</h1>
             <div class="content-box">
                 <h1>Avances de la propuesta</h1>
@@ -68,12 +67,13 @@
                 <h1>Tipografía y estilo gráfico</h1>
                 <p><span class="color-titulo">Fuente:</span>Inter</p>
                 <p><span class="color-titulo">Estilo gráfico:</span>Regular, Bold, Italic</p>
-                <p><span class="color-titulo">Ejemplo:</span>abcdefghijkmnñopqrstuvwxyz
-                    abcdefghijkmnñopqrstuvwxyz
-                    abcdefghijkmnñopqrstuvwxyz
-                    ABCDEFGHIJKMNÑOPQRSTUVWXYZ
-                    ABCDEFGHIJKMNÑOPQRSTUVWXYZ
-                    ABCDEFGHIJKMNÑOPQRSTUVWXYZ</p> 
+                <p><span class="color-titulo">Ejemplo:</span></p>
+                <div class="text-lines">
+                    <p class="regular">abcdefghijkmnñopqrstuvwxyz<br>ABCDEFGHIJKMNÑOPQRSTUVWXYZ</p>
+                    <p class="bold">abcdefghijkmnñopqrstuvwxyz<br>ABCDEFGHIJKMNÑOPQRSTUVWXYZ</p>
+                    <p class="italic">abcdefghijkmnñopqrstuvwxyz<br>ABCDEFGHIJKMNÑOPQRSTUVWXYZ</p>
+                </div>
+                
                 <p>Estos elementos están diseñados para reforzar la imagen del Instituto Eureka como una organización confiable, profesional y accesible, que apoya el éxito académico de sus estudiantes. La coherencia visual y el uso estratégico de colores y tipografía comunican estabilidad y modernidad, mientras que los íconos y el logo refuerzan el enfoque educativo del instituto.</p>
                 <h1>Mapa del sitio</h1>
                 <img src="images/arbol.png" alt="arbol" class="content-box-img">
@@ -87,7 +87,7 @@
     </main>
 
     <footer class="bg-custom text-center py-4 mt-auto">
-        <div class="container text-center">
+        <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-12 col-md-9">
                     <div class="row align-items-center">
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-3 d-flex align-items-center justify-content-center mt-3 mt-md-0">
-                    <img src="images/Logo_UADE.png" alt="UADE" width="150">
+                    <img src="images/Logo_UADE.png" alt="UADE" class="img-fluid" width="150">
                 </div>
             </div>
         </div>
