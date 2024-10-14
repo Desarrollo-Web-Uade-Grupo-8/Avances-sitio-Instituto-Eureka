@@ -5,6 +5,7 @@ body {
 .navbar-brand img {
     margin-right: 10px;
     width: 80px;
+    margin-left: 70px;
 }
 
 .navbar {
@@ -14,6 +15,7 @@ body {
 
 .navbar-nav {
     gap: 200px; /* Aumenta o disminuye según prefieras */
+    margin-right: 70px;
 }
 
 main {
@@ -22,6 +24,7 @@ main {
 }
 
 footer {
+    font-weight: normal;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -41,5 +44,21 @@ footer img {
 @media (max-width: 1200px) {
     .navbar-nav {
         gap: 100px; 
+        margin-right: 40px;
+    }
+    .navbar-brand img {
+        margin-left: 40px
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar-brand img {
+        margin-left: 10px
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-brand img {
+        margin-left: 0px
     }
 }
