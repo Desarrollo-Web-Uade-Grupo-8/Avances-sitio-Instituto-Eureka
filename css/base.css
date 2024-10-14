@@ -52,6 +52,10 @@ footer img {
 }
 
 @media (max-width: 1000px) {
+    .navbar-nav {
+        gap: 0px; 
+        margin-right: 40px;
+    }
     .navbar-brand img {
         margin-left: 10px
     }
