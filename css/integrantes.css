@@ -1,6 +1,8 @@
-h1{
+h1, h2{
     color: #112D4E;
+    font-weight: bold;
 }
+
 .team-title {
     font-size: 2rem;
     text-align: center;
@@ -30,10 +32,9 @@ h1{
     width: 500px;
 }
 
-.team-member h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #112D4E;
+.team-member h2 {
+    margin-bottom: 20px;
+    margin-top: 15px;
 }
 
 .team-member img {
@@ -44,9 +45,19 @@ h1{
 }
 
 .team-member p {
-    font-size: 1rem;
+    font-size: 2rem;
     color: #112D4E;
     font-weight: bold;
+}
+
+
+@media (max-width: 1100px) {
+    .team-member {
+        padding: 10px;
+        width: 350px;
+    }
+
+
 }
 
 
@@ -59,4 +70,17 @@ h1{
         padding: 10px;
         width: 350px;
     }
+
+
+}
+
+@media (max-width: 400px) {
+
+
+    .team-member {
+        padding: 10px;
+        width: 300px;
+    }
+
+
 }

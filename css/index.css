@@ -1,22 +1,18 @@
-h1 {
+h1, h2, h3 {
     color: #112D4E;
     font-weight: bold;
-    font-style: italic;
-}
-
-p{
-    color: #3F72AF;
-    font-weight: bold;
-    font-style: italic; 
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .color-titulo{
     color: #112D4E;
+    font-weight: bold;
 }
 
 .content-box {
     background-color: #DBE2EF;
-    padding: 20px;
+    padding: 20px 50px 50px 50px;
     margin: 20px auto;
     max-width: 60%;
     border-radius: 10px;
@@ -30,23 +26,29 @@ p{
     display: block;
 }
 
+.content-box p{
+    color: #112D4E;
+    font-size: 20px;
+ 
+}
+
 .image-container{
     display: flex;
-    gap: 90%;
-    justify-content: space-between;
-    margin-left: 115px;
-    align-items: center;
-    padding: 30px;
-    max-width: 30%;
+    justify-content: center;
+    gap: 150px; 
+    align-items: center; 
+}
+.image-container img {
+    max-width: 100px; 
     height: auto;
 }
 
 .img-box{
-   background-color: #112D4E;
-   background-size: cover;
-   border-radius: 30px;
-   width: 150px;
-}
+    background-color: #112D4E;
+    background-size: cover;
+    border-radius: 15px;
+    width: 180px;
+ }
 
 .text-lines p {
     margin-bottom: 10px; 
@@ -61,8 +63,25 @@ p{
 }
 
 .italic {
-    font-style: italic; 
     color: #112D4E;
+    font-style: italic;
+}
+
+.parrafo-elementos {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media (max-width: 1200px) {
+    .image-container {
+        gap: 90px; 
+    }
+    .image-container img {
+        max-width: 75px; 
+        height: auto;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -78,10 +97,23 @@ p{
     }
 
     .image-container img {
-        max-width: 70px;
+        max-width: 50px; 
+        height: auto;
     }
+    
 
     .img-box {
         width: 80px; 
     }
+}
+
+@media (max-width: 400px) {
+    .image-container {
+        gap: 30px;
+    }
+    .image-container img {
+        max-width: 40px; 
+        height: auto;
+    }
+
 }
